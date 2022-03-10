@@ -2,7 +2,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { GrLinkedinOption } from 'react-icons/gr';
 import styles from "./styles.module.css"
 
-export const Navbar = () => {
+function Navbar() {
     return (
         <nav className={styles.nav}>
             <div className={styles.navNavigation}>
@@ -25,3 +25,5 @@ export const Navbar = () => {
         </nav>
     )
 }
+
+export { Navbar }
