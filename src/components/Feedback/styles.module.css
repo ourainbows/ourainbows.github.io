@@ -1,0 +1,59 @@
+.container {
+  margin: 0 5rem 15rem 5rem;
+}
+.info {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.title {
+  font-size: 3.4rem;
+  background: linear-gradient(
+    90.06deg,
+    rgba(230, 26, 122, 0.92) -11.91%,
+    #f85959 59.48%
+  );
+  background-size: 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text {
+  font-size: 1.7rem;
+}
+.cardsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  background: linear-gradient(
+    109.35deg,
+    rgba(255, 255, 255, 0.4) -96.47%,
+    rgba(255, 255, 255, 0.1) 2.59%
+  );
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 40rem;
+  width: 100rem;
+  padding: 3rem 3rem 3rem;
+}
+.card:nth-child(odd){
+    margin: 0 5rem;
+    margin-top: 8rem;
+}
+.card img {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: 1.2rem;
+}
+.cardTitle {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.cardText {
+  font-size: 2rem;
+  text-align: center;
+}

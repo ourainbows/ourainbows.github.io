@@ -1,4 +1,5 @@
 import { About } from './components/About';
+import { Feedback } from './components/Feedback';
 import { Home } from './components/Home';
 import { Navbar } from './components/Navbar';
 import { Projects } from './components/Projects';
@@ -12,7 +13,8 @@ function App() {
         <Home />
         <Services />
         <About />
-        <Projects/>
+        <Projects />
+        <Feedback/>
       </main>
     </>
   )
