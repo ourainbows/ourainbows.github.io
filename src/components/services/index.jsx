@@ -1,10 +1,9 @@
-import React from 'react'
+import styles from "./styles.module.css"
 import { Service } from '../service'
 import { FaFeatherAlt} from "react-icons/fa"
 import { BsStars} from "react-icons/bs"
 import { BsHeartFill } from "react-icons/bs"
 import { BsLightningChargeFill} from "react-icons/bs"
-
 
 
 function Services() {
@@ -31,12 +30,12 @@ function Services() {
         },
     ]
     return (
-        <section>
-            <div>
+        <section className={styles.container}>
+            <div className={styles.containerInfo}>
                 <h2>Mis Servicios</h2>
-                <p>Lo que amo hacer</p>
+                <p>Lo que se y amo hacer</p>
             </div>
-            <div>
+            <div className={styles.servicesContainer}>
                 {services.map((item, i ) => (
                     <Service
                         key={i}

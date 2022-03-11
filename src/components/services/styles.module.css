@@ -1,0 +1,27 @@
+.container {
+  margin: 50rem 10rem 50rem 10rem;
+}
+.containerInfo {
+  text-align: center;
+}
+.containerInfo h2 {
+  font-size: 3.4rem;
+  background: linear-gradient(
+    90.06deg,
+    rgba(230, 26, 122, 0.92) -11.91%,
+    #f85959 59.48%
+  );
+  background-size: 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.containerInfo p {
+  font-size: 1.6rem;
+}
+.servicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 8rem;
+}

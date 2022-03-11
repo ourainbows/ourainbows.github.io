@@ -1,13 +1,13 @@
-import React from 'react'
+import styles from "./styles.module.css"
 
-function Service ({title, text, icon}) {
+function Service({ title, text, icon }) {
   return (
-      <div>
-          <div>{title}</div>
-          <div>{text}</div>
-          <div style={{ fontSize: "28px" }}>{icon}</div>
+    <div className={styles.service}>
+        <div className={styles.iconContainer}>{icon}</div>
+        <div className={styles.title}>{title}</div>
+      <div className={styles.text}>{text}</div>
     </div>
   )
 }
 
-export {Service}
+export { Service }
