@@ -1,5 +1,5 @@
 import styles from "./styles.module.css"
-import { Service } from '../service'
+import { Service } from '../Service'
 import { FaFeatherAlt} from "react-icons/fa"
 import { BsStars} from "react-icons/bs"
 import { BsHeartFill } from "react-icons/bs"
