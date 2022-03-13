@@ -3,10 +3,22 @@
 :root {
   --background: #0f041e;
   --main: #f85959;
-  --secundary: ##e61a7aeb;
+  --secundary: #e61a7aeb;
   --text: #ffffff;
 }
-
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: #F4545C;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9c3d3d;
+}
 * {
   box-sizing: border-box;
   margin: 0%;
@@ -15,7 +27,6 @@
 html {
   font-size: 62.5%;
 }
-
 body {
   background: var(--background);
   color: var(--text);

@@ -47,8 +47,8 @@
   z-index: -1;
   width: 100%;
   left: 0;
-  filter: blur(50px);
-  height: 13px;
+  filter: blur(40px);
+  height: 16px;
 }
 .copyright {
   font-size: 1.3rem;

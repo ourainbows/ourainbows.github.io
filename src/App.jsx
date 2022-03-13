@@ -7,9 +7,11 @@ import { Projects } from './components/Projects';
 import { Services } from './components/Services';
 import { Work } from './components/Work';
 
+import styles from './app.module.css'
+
 function App() {
   return (
-    <>
+    <div className={styles.wrapper}>
       <Navbar />
       <main>
         <Home />
@@ -20,7 +22,7 @@ function App() {
         <Work/>
       </main>
       <Footer/>
-    </>
+    </div>
   )
 }
 
