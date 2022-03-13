@@ -40,10 +40,10 @@
   padding: 3rem 3rem 3rem;
   margin: 1.2rem;
 }
-.card:nth-child(odd){
-    /* margin: 0 5rem; */
-    /* margin-top: 8rem; */
-}
+/* .card:nth-child(odd){
+    margin: 0 5rem;
+    margin-top: 8rem;
+} */
 .card img {
   border-radius: 50%;
   height: 10rem;

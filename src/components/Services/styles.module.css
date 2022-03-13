@@ -1,5 +1,7 @@
 .container {
-  margin: 50rem 10rem 20rem 10rem;
+  margin: 50rem auto 20rem auto;
+  padding: 0 10rem;
+  max-width: 1200px;
 }
 .containerInfo {
   text-align: center;

@@ -6,9 +6,9 @@ function Projects() {
     return (
         <section className={styles.sectionProjects}>
             <h2 className={styles.title}>Proyectos</h2>
-            <div>
+            <div className={styles.containerProjects}>
                 {/* mirar el end scroll mas la posicion en x */}
-                <ScrollContainer  className={styles.container}>
+                <ScrollContainer className={styles.container}>
                    <div className={styles.project}></div>
                    <div className={styles.project}></div>
                    <div className={styles.project}></div>

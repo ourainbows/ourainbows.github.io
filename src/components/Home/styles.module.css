@@ -1,7 +1,9 @@
 .home {
   display: flex;
   justify-content: space-between;
-  margin: 7rem 5rem 0 5rem;
+  margin: 7rem auto 0 auto;
+  max-width: 1200px;
+
 }
 .container {
   margin-top: 10rem;

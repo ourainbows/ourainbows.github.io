@@ -1,9 +1,23 @@
 .footer {
+  position: relative;
+  background-color: var(--background);
+}
+.footer::before {
+  position: absolute;
+  content: "";
+  height: 100px;
+  width: 100%;
+  z-index: -1;
+  background: #c44349;
+  filter: blur(229px);
+}
+.footerContent {
+  margin: 0 auto;
+  max-width: 1200px;
   display: flex;
   padding: 2rem 10rem;
   justify-content: space-between;
   font-size: 1.6rem;
-  background-color: var(--background);
 }
 .brand {
   font-weight: 700;
