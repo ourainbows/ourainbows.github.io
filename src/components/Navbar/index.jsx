@@ -4,7 +4,7 @@ import styles from "./styles.module.css"
 
 function Navbar() {
     return (
-        <nav className={styles.nav}>
+        <nav id="home" className={styles.nav}>
             <div className={styles.navNavigation}>
                 <div className={styles.navNavigationBrand}>Juan Casas<span> .</span></div>
                 <ul>

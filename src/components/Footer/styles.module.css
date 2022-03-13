@@ -1,0 +1,58 @@
+.footer {
+  display: flex;
+  padding: 2rem 10rem;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  background-color: var(--background);
+}
+.brand {
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  font-size: 2.3rem;
+}
+.brand span {
+  color: var(--main);
+}
+.aboutMe {
+  margin-bottom: 1.2rem;
+  width: 50%;
+  margin-bottom: 3rem;
+}
+.listItems {
+  list-style: none;
+}
+.listItem {
+  margin-bottom: 0.5rem;
+  white-space: nowrap;
+}
+.listItem a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+.listItem a svg {
+  margin-right: 0.4rem;
+}
+.listTitle {
+  font-weight: 700;
+  color: var(--text);
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+.sun {
+  position: absolute;
+  background-color: var(--main);
+  z-index: -1;
+  width: 100%;
+  left: 0;
+  filter: blur(50px);
+  height: 13px;
+}
+.copyright {
+  font-size: 1.3rem;
+}
+.contactContainer {
+  margin-left: 10rem;
+}
