@@ -32,6 +32,7 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
+                <p className={styles.copyrightMobile}>©2021. Todos los derechos reservados.</p>
             </footer>
         </>
     )

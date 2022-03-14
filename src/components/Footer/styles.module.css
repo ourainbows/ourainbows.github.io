@@ -29,7 +29,7 @@
 }
 .aboutMe {
   margin-bottom: 1.2rem;
-  width: 50%;
+  width: 80%;
   margin-bottom: 3rem;
 }
 .listItems {
@@ -64,9 +64,23 @@
   filter: blur(40px);
   height: 16px;
 }
-.copyright {
+.copyright,
+.copyrightMobile {
   font-size: 1.3rem;
+}
+.copyrightMobile {
+  display: none;
 }
 .contactContainer {
   margin-left: 10rem;
+}
+@media (max-width: 800px) {
+  .copyright {
+    display: none;
+  }
+  .copyrightMobile {
+    display: block;
+    text-align: center;
+    padding-bottom: 1.2rem;
+  }
 }
