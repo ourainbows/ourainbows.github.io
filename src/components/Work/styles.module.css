@@ -28,3 +28,8 @@
   height: 5rem;
   font-size: 2rem;
 }
+@media (max-width: 500px) {
+  .container {
+      margin: 0 2rem 25rem 2rem;
+  }
+}

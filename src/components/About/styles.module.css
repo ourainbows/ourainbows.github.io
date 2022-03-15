@@ -80,3 +80,11 @@
     width: 80%;
   }
 }
+@media (max-width: 500px) {
+  .container {
+    padding: 0 2rem;
+  }
+  .info {
+    width: 100%;
+  }
+}

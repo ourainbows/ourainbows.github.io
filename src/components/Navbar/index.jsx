@@ -7,10 +7,12 @@ import { Hamburguer } from '../Hamburguer';
 import styles from "./styles.module.css"
 
 function Navbar() {
+    const [active, setActive] = useState(false)
+
     const openModal = event => {
         setActive(!active)
+        active ? document.body.style.overflow = "visible" : document.body.style.overflow = "hidden"
     }
-    const [active, setActive] = useState(false)
     return (
         <>
             <nav id="home" className={active ? `${styles.nav} ${styles.active}` : styles.nav}>
@@ -19,7 +21,7 @@ function Navbar() {
                         onClick={openModal}
                         className={styles.hamburguerBtn}
                     >
-                        {active ? <HiOutlineMenuAlt1 /> : <MdOutlineClose />}
+                        {active ? <MdOutlineClose /> : <HiOutlineMenuAlt1 />}
                     </button>
                     <div className={styles.navNavigationBrand}>Juan Casas<span> .</span></div>
                     <ul>

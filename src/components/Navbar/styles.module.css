@@ -22,7 +22,7 @@
   color: var(--main);
   transition: 30ms;
 }
-.navNavigation ul li a{
+.navNavigation ul li a {
   color: var(--text);
   text-decoration: none;
 }
@@ -66,17 +66,17 @@
   .active {
     flex-direction: column;
     align-items: center;
-
+    overflow: visible;
     position: fixed;
-    top: 0;
+    top: -10px;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: -10px;
     justify-content: start;
     background: var(--background);
     z-index: 10;
     margin: 0;
-    padding-top: 3rem;
+    /* padding-top: 5rem; */
   }
   .active ul {
     display: inline-block;
@@ -90,6 +90,7 @@
     align-items: center;
     text-align: center;
     height: 90%;
+    justify-content: center;
   }
   .active .navNavigation .hamburguerBtn,
   .active .navNavigation .navNavigationBrand,
@@ -108,16 +109,24 @@
   .hamburguerBtn {
     display: block;
   }
-  .active .hamburguerBtn svg:hover{
+  .active .hamburguerBtn {
+    padding-top: 5rem;
+  }
+  .active .hamburguerBtn svg:hover {
     transform: rotate(90deg);
     transition: 1000ms;
     color: var(--main);
   }
-  
+
   .active .navSocial a {
     margin: 0;
   }
   .active .navSocial a:nth-child(1) {
     margin-right: 2.4rem;
+  }
+}
+@media (max-width: 500px) {
+  .nav {
+    padding: 0 2rem;
   }
 }

@@ -99,3 +99,23 @@
     margin-bottom: 30rem;
   }
 }
+@media (max-width: 500px) {
+  .home {
+    padding: 0 2rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info {
+    text-align: center;
+  }
+  .btnsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .btnContact {
+    margin-bottom: 2rem;
+  }
+}
