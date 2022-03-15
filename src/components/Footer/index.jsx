@@ -12,7 +12,7 @@ function Footer() {
                         <p className={styles.aboutMe}>Soy Juan Casas, un programador frontend con experiencia en proyectos reales.</p>
                         <p className={styles.copyright}>©2021. Todos los derechos reservados.</p>
                     </div>
-                    <div>
+                    <div className={styles.navigationContainer}>
                         <ul className={styles.listItems}>
                             <li className={styles.listTitle}>Navegacion</li>
                             <li className={styles.listItem}><a href="#home">Inicio</a></li>

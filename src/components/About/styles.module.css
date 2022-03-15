@@ -71,3 +71,12 @@
   height: 7rem;
   width: 7rem;
 }
+@media (max-width: 769px) {
+  .container {
+    flex-direction: column;
+  }
+  .info {
+    margin-bottom: 4rem;
+    width: 80%;
+  }
+}

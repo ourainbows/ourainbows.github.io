@@ -13,7 +13,7 @@ function Navbar() {
     const [active, setActive] = useState(false)
     return (
         <>
-            <nav id="home" className={active ? styles.nav : `${styles.nav} ${styles.active}`}>
+            <nav id="home" className={active ? `${styles.nav} ${styles.active}` : styles.nav}>
                 <div className={styles.navNavigation}>
                     <button
                         onClick={openModal}

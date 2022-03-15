@@ -84,3 +84,36 @@
     padding-bottom: 1.2rem;
   }
 }
+@media (max-width: 769px) {
+  .footerContent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .brand,
+  .aboutMe {
+    text-align: center;
+  }
+  .aboutMe {
+    width: 100%;
+  }
+}
+@media (max-width: 769px) {
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactContainer{
+    margin: 0;
+  }
+  .navigationContainer{
+    margin-bottom: 2rem;
+  }
+  .contactContainer ul, .navigationContainer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactContainer ul li, .navigationContainer ul li{
+    margin-bottom: 1rem;
+  }
+}

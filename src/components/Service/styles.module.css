@@ -36,3 +36,12 @@
   font-size: 1.7rem;
   text-align: center;
 }
+@media (max-width: 769px) {
+  .service:nth-child(even) {
+    margin: 0;
+    margin-bottom: 8rem;
+  }
+  .service{
+    width: 60%;
+  }
+}
