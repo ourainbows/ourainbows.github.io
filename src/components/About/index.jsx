@@ -7,7 +7,7 @@ import reactIcon from "../../assets/reactIcon.svg"
 
 function About() {
     return (
-        <section className={styles.container}>
+        <section id="aboutMe" className={styles.container}>
             <div className={styles.info}>
                 <h2 className={styles.title}>Acerca de mi</h2>
                 <p className={styles.text}>

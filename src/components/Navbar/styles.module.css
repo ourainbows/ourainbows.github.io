@@ -7,6 +7,7 @@
   justify-content: space-between;
   font-size: 2rem;
 }
+
 .navNavigation {
   display: flex;
 }
@@ -16,6 +17,14 @@
 }
 .navNavigation ul li {
   margin-right: 4.4rem;
+}
+.navNavigation ul li a:hover {
+  color: var(--main);
+  transition: 30ms;
+}
+.navNavigation ul li a{
+  color: var(--text);
+  text-decoration: none;
 }
 .navNavigationBrand {
   font-weight: 700;
@@ -48,14 +57,67 @@
   color: white;
   font-size: 2.3rem;
 }
+
 @media (max-width: 900px) {
   .navNavigation ul {
     display: none;
   }
+  /* Haburguer Menu */
+  .active {
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: start;
+    background: var(--background);
+    z-index: 10;
+    margin: 0;
+    padding-top: 3rem;
+  }
+  .active ul {
+    display: inline-block;
+    flex-direction: column;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .active .navNavigation {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 90%;
+  }
+  .active .navNavigation .hamburguerBtn,
+  .active .navNavigation .navNavigationBrand,
+  .active .navNavigation ul li {
+    margin: 0;
+  }
+  .active ul {
+    flex-direction: column;
+  }
   .navNavigationBrand::after {
     content: none;
   }
+  .active .navNavigationBrand {
+    padding-top: 5rem;
+  }
   .hamburguerBtn {
     display: block;
+  }
+  .active .hamburguerBtn svg:hover{
+    transform: rotate(90deg);
+    transition: 1000ms;
+    color: var(--main);
+  }
+  
+  .active .navSocial a {
+    margin: 0;
+  }
+  .active .navSocial a:nth-child(1) {
+    margin-right: 2.4rem;
   }
 }

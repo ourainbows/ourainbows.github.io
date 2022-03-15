@@ -30,7 +30,7 @@ function Services() {
         },
     ]
     return (
-        <section className={styles.container}>
+        <section id="services" className={styles.container}>
             <div className={styles.containerInfo}>
                 <h2>Mis Servicios</h2>
                 <p>Lo que se y amo hacer</p>
