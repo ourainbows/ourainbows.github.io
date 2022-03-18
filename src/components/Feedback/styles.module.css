@@ -30,15 +30,17 @@
     109.35deg,
     rgba(255, 255, 255, 0.4) -96.47%,
     rgba(255, 255, 255, 0.1) 2.59%
-  );
-  border-radius: 12px;
+  ) !important;
+  border-radius: 12px !important;
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 42rem;
-  width: 30rem;
-  padding: 3rem 3rem 3rem;
-  margin: 1.2rem;
+  height: 42rem !important;
+  width: 30rem !important;
+  padding: 3rem 3rem 3rem !important;
+  margin: 1.2rem !important;
+  color: var(--text) !important;
+  line-height: initial !important;
 }
 /* .card:nth-child(odd){
     margin: 0 5rem;
