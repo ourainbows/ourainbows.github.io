@@ -35,7 +35,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 40rem;
+  height: 42rem;
   width: 30rem;
   padding: 3rem 3rem 3rem;
   margin: 1.2rem;
@@ -50,10 +50,13 @@
   width: 10rem;
   margin-bottom: 1.2rem;
 }
-.cardTitle {
+.cardName {
   font-weight: bold;
   font-size: 2rem;
-  margin-bottom: 2rem;
+}
+.cardTitle {
+  font-size: 1.3rem;
+  margin-bottom: 1.8rem;
 }
 .cardText {
   font-size: 1.8rem;

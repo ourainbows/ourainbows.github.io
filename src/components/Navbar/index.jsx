@@ -3,7 +3,6 @@ import { AiFillGithub } from 'react-icons/ai';
 import { GrLinkedinOption } from 'react-icons/gr';
 import { HiOutlineMenuAlt1 } from 'react-icons/hi'
 import { MdOutlineClose } from 'react-icons/md'
-import { Hamburguer } from '../Hamburguer';
 import styles from "./styles.module.css"
 
 function Navbar() {

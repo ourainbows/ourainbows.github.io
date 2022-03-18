@@ -66,11 +66,19 @@
 .characterBlur {
   filter: blur(30px);
 }
-
-.btnsContainer button {
+.btnsContainer{
+  display: flex;
+}
+.btnsContainer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 18rem;
   height: 3.2rem;
   border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  text-decoration: none;
 }
 .btnContact {
   border: none;

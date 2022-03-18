@@ -11,8 +11,8 @@ function Home() {
                     <p>Desarrollador Frontend / UI 🖥️</p>
                 </div>
                 <div className={styles.btnsContainer}>
-                    <button className={styles.btnContact}>Contactame</button>
-                    <button className={styles.btnCv}>CV</button>
+                    <a href="mailto:casasjuanfelipe@gmail.com" className={styles.btnContact}>Contactame</a>
+                    <a href="https://drive.google.com/file/d/10kPdGVOkDHPERrnAetzgZeIYRzl38wxz/view" className={styles.btnCv}>CV</a>
                 </div>
             </div>
             <div className={styles.characterContainer}>
