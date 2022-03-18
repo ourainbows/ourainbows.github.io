@@ -1,19 +1,29 @@
 {
   "files": {
-    "main.css": "/ourainbows.github.io/static/css/main.e3b6aa4a.css",
-    "main.js": "/ourainbows.github.io/static/js/main.fc601afc.js",
+    "main.css": "/ourainbows.github.io/static/css/main.92d80910.css",
+    "main.js": "/ourainbows.github.io/static/js/main.c903c94e.js",
+    "static/media/project4.png": "/ourainbows.github.io/static/media/project4.03c6e220630865e91dc9.png",
+    "static/media/project3.png": "/ourainbows.github.io/static/media/project3.5f73e6253d18ad8d1617.png",
+    "static/media/project10.png": "/ourainbows.github.io/static/media/project10.da42004098d8bd193ad3.png",
+    "static/media/project5.png": "/ourainbows.github.io/static/media/project5.a9ef18884cafd5985af8.png",
     "static/media/me.png": "/ourainbows.github.io/static/media/me.6279df654e303a97300f.png",
-    "static/media/bill.jpg": "/ourainbows.github.io/static/media/bill.2b593e6406004745d907.jpg",
+    "static/media/project8.png": "/ourainbows.github.io/static/media/project8.c84ba510c8f68c5dc0e5.png",
+    "static/media/project2.png": "/ourainbows.github.io/static/media/project2.6227571db85f260cd732.png",
+    "static/media/project7.png": "/ourainbows.github.io/static/media/project7.b50b582404c6c885902c.png",
+    "static/media/project1.png": "/ourainbows.github.io/static/media/project1.bd86ac788cdfbf01517b.png",
+    "static/media/vale2.jpg": "/ourainbows.github.io/static/media/vale2.b71af74a9bf01fcccf01.jpg",
+    "static/media/project9.png": "/ourainbows.github.io/static/media/project9.2914e634451367a6caa4.png",
+    "static/media/project6.png": "/ourainbows.github.io/static/media/project6.a3327970b1cc8243555f.png",
     "static/media/reactIcon.svg": "/ourainbows.github.io/static/media/reactIcon.ffaedcd8ca209c13d52b346d358ff65d.svg",
     "static/media/jsIcon.svg": "/ourainbows.github.io/static/media/jsIcon.f3f1e21c1b5ab71ff879289f7c9a3820.svg",
     "index.html": "/ourainbows.github.io/index.html",
     "static/media/cssIcon.svg": "/ourainbows.github.io/static/media/cssIcon.a467fed5b1b9924b0d1fdfd74e499c60.svg",
     "static/media/figmaIcon.svg": "/ourainbows.github.io/static/media/figmaIcon.13e93ff373ffd5087a255475aaa7829a.svg",
-    "main.e3b6aa4a.css.map": "/ourainbows.github.io/static/css/main.e3b6aa4a.css.map",
-    "main.fc601afc.js.map": "/ourainbows.github.io/static/js/main.fc601afc.js.map"
+    "main.92d80910.css.map": "/ourainbows.github.io/static/css/main.92d80910.css.map",
+    "main.c903c94e.js.map": "/ourainbows.github.io/static/js/main.c903c94e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3b6aa4a.css",
-    "static/js/main.fc601afc.js"
+    "static/css/main.92d80910.css",
+    "static/js/main.c903c94e.js"
   ]
 }
