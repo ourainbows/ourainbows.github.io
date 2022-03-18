@@ -26,11 +26,11 @@ function Feedback() {
                     <p className={styles.cardTitle}>Desarrolladora FullStack</p>
                     <p className={styles.cardText}>Siempre llegaba a tiempo con su trabajo y estaba dispuesto a ayudar incluso si no era su trabajo. Aprecié sus consejos y lo buscaría si necesitara una segunda opinión. Trabajaría con él de nuevo en cualquier momento. </p>
                 </Tilt>
-                <Tilt className={styles.card}>
+               {/*  <Tilt className={styles.card}>
                     <img src={vale} alt="persona" />
                     <p className={styles.cardTitle}>Bill Gates</p>
                     <p className={styles.cardText}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, repellendus voluptatum dignissimos architecto nobis assumenda delectus beatae velit magnam esse.</p>
-                </Tilt>
+                </Tilt> */}
             </div>
         </section>
     )
