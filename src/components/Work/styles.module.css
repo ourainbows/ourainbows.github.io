@@ -24,17 +24,22 @@
   border: none;
   background: linear-gradient(90.06deg, #e61a7aeb -11.91%, #f85959 99.48%);
   color: var(--text);
-  width: 29rem;
-  height: 5rem;
   font-size: 2rem;
   cursor: pointer;
   transition: 200ms;
+  text-decoration: none;
+  height: 5rem;
+  width: 29rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
 }
 .btn:hover {
-    box-shadow: 0 0 10px #f4545c;
+  box-shadow: 0 0 10px #f4545c;
 }
 @media (max-width: 500px) {
   .container {
-      margin: 0 2rem 25rem 2rem;
+    margin: 0 2rem 25rem 2rem;
   }
 }

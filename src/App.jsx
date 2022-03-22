@@ -1,6 +1,7 @@
 import { About } from './components/About';
 import { Feedback } from './components/Feedback';
 import { Footer } from './components/Footer';
+import { GoTop } from './components/GoTop';
 import { Home } from './components/Home';
 import { Navbar } from './components/Navbar';
 import { Projects } from './components/Projects';
@@ -20,6 +21,7 @@ function App() {
         <Work />
       </main>
       <Footer />
+      <GoTop/>
     </>
   )
 }

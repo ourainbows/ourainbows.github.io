@@ -1,0 +1,23 @@
+.goTopHidden {
+  display: none;
+}
+
+.goTopVisible {
+  position: fixed;
+  right: 5rem;
+  bottom: 5rem;
+  z-index: 9;
+}
+.goTop {
+  border: none;
+  background-color: var(--main);
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  box-shadow: 0 0 10px #9c3d3d;
+}
+.goTop svg {
+  height: 3rem;
+  width: 3rem;
+  color: var(--background);
+}
