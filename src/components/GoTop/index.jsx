@@ -28,7 +28,7 @@ function GoTop() {
     }, [])
 
     return (
-        <div className={showGoTop ? styles.goTopVisible : styles.goTopHidden} onClick={handleScrollUp} data-aos="fade-up">
+        <div className={showGoTop ? styles.goTopVisible : ""} onClick={handleScrollUp} data-aos="fade-up">
             <button className={styles.goTop}>
                 <IoIosArrowUp/>
             </button>

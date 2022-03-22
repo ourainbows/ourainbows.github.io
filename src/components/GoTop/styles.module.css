@@ -1,7 +1,3 @@
-.goTopHidden {
-  display: none;
-}
-
 .goTopVisible {
   position: fixed;
   right: 5rem;
