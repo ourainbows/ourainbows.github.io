@@ -17,3 +17,9 @@
   width: 3rem;
   color: var(--background);
 }
+@media(min-width: 500px){
+  .goTopVisible {
+        right: 2rem;
+    bottom: 2rem;
+  }
+}

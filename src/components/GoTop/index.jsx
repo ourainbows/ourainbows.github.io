@@ -9,7 +9,7 @@ function GoTop() {
     const [showGoTop, setShowGoTop] = useState(false)
 
     const handleVisibleButton = () => {
-        console.log(window.pageYOffset)
+        /* console.log(window.pageYOffset) */
         setShowGoTop(window.pageYOffset > 2000)
     }
 
