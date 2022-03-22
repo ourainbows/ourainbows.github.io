@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20rem;
+  margin-bottom: 10rem;
   max-width: 1200px;
   padding: 0 5rem;
 }
@@ -143,6 +143,9 @@
   }
 }
 @media (max-width: 500px) {
+  .text {
+    text-align: justify;
+  }
   .container {
     padding: 0 2rem;
   }

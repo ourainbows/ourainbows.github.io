@@ -4,7 +4,9 @@ import { FaFeatherAlt} from "react-icons/fa"
 import { BsStars} from "react-icons/bs"
 import { BsHeartFill } from "react-icons/bs"
 import { BsLightningChargeFill} from "react-icons/bs"
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Services() {
     const services = [
@@ -29,13 +31,17 @@ function Services() {
             icon: <FaFeatherAlt/>
         },
     ]
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
     return (
         <section id="services" className={styles.container}>
-            <div className={styles.containerInfo}>
+            <div className={styles.containerInfo} data-aos="fade-up" data-aos-duration="1800" >
                 <h2>Mis Servicios</h2>
                 <p>Lo que se y amo hacer</p>
             </div>
-            <div className={styles.servicesContainer}>
+            <div className={styles.servicesContainer} data-aos="fade-up" data-aos-duration="2000">
                 {services.map((item, i ) => (
                     <Service
                         key={i}

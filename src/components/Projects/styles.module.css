@@ -25,6 +25,7 @@
   position: absolute;
   margin-top: 3px;
   transition: 300ms;
+  cursor: pointer;
 }
 .project:hover > .link {
   visibility: visible;
@@ -53,6 +54,12 @@
 }
 .container {
   display: flex;
+}
+.container a{
+  cursor: grab;
+}
+.container a:visited{
+  color: var(--text);
 }
 .containerProjects {
   /*   display: flex;

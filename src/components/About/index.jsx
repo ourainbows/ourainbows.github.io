@@ -17,11 +17,20 @@ import node from '../../assets/node.svg'
 import git from '../../assets/git.svg'
 import github from '../../assets/github.svg'
 import html from '../../assets/html.svg'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
+
 
 function About() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
     return (
         <section id="aboutMe" className={styles.container}>
-            <div className={styles.info}>
+            <div className={styles.info} data-aos="fade-right" data-aos-duration="1800">
                 <h2 className={styles.title}>Acerca de mi</h2>
                 <p className={styles.text}>
                     Mi nombre es Juan Felipe Casas, soy un desarrollador web enfocado al area del frontend, me encanta trabajar con  React.Js y CSS.<br />
@@ -35,7 +44,7 @@ function About() {
                     <FaArrowRight />
                 </a>
             </div>
-            <div className={styles.slider}>
+            <div className={styles.slider} data-aos="fade-up" data-aos-duration="1800">
                 <div className={styles.tech}>
                     <div><img src={cssIcon} alt="css icon" /></div>
                     <div><img src={arch} alt="javascript icon" /></div>
