@@ -1,6 +1,6 @@
 import styles from "./styles.module.css"
-import vale from "../../assets/vale.jpeg"
-import vale2 from "../../assets/vale2.jpg"
+import vale from "../../assets/vale.webp"
+import vale2 from "../../assets/vale2.webp"
 import Tilt from 'react-parallax-tilt';
 
 function Feedback() {

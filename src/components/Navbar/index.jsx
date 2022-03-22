@@ -10,7 +10,7 @@ function Navbar() {
 
     const openModal = event => {
         setActive(!active)
-        active ? document.body.style.overflow = "visible" : document.body.style.overflow = "hidden" 
+        /* active ? document.body.style.overflow = "visible" : document.body.style.overflow = "hidden"  */
     }
     return (
         <>
@@ -39,7 +39,6 @@ function Navbar() {
                     </a>
                 </div>
             </nav>
-            {/* <Hamburguer active={ active}/> */}
         </>
     )
 }

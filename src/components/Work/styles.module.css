@@ -27,6 +27,11 @@
   width: 29rem;
   height: 5rem;
   font-size: 2rem;
+  cursor: pointer;
+  transition: 200ms;
+}
+.btn:hover {
+    box-shadow: 0 0 10px #f4545c;
 }
 @media (max-width: 500px) {
   .container {

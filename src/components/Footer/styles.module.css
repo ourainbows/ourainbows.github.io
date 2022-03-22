@@ -23,6 +23,12 @@
   font-weight: 700;
   margin-bottom: 1.2rem;
   font-size: 2.3rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .brand span {
   color: var(--main);
@@ -45,6 +51,9 @@
   font-weight: normal;
   display: flex;
   align-items: center;
+}
+.listItem a:hover {
+  color: var(--main);
 }
 .listItem a svg {
   margin-right: 0.4rem;
@@ -83,12 +92,16 @@
     text-align: center;
     padding-bottom: 1.2rem;
   }
+  .footer::before {
+    height: 300px;
+  }
 }
 @media (max-width: 769px) {
   .footerContent {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .brand,
   .aboutMe {
     text-align: center;
@@ -102,23 +115,25 @@
     flex-direction: column;
     align-items: center;
   }
-  .contactContainer{
+  .contactContainer {
     margin: 0;
   }
-  .navigationContainer{
+  .navigationContainer {
     margin-bottom: 2rem;
   }
-  .contactContainer ul, .navigationContainer ul {
+  .contactContainer ul,
+  .navigationContainer ul {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .contactContainer ul li, .navigationContainer ul li{
+  .contactContainer ul li,
+  .navigationContainer ul li {
     margin-bottom: 1rem;
   }
 }
 @media (max-width: 500px) {
   .footerContent {
-   padding: 4rem 2rem;
+    padding: 4rem 2rem;
   }
 }

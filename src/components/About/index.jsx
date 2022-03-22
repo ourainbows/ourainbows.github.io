@@ -4,6 +4,19 @@ import cssIcon from "../../assets/cssIcon.svg"
 import jsIcon from "../../assets/jsIcon.svg"
 import figmaIcon from "../../assets/figmaIcon.svg"
 import reactIcon from "../../assets/reactIcon.svg"
+import arch from '../../assets/arch.svg'
+import tux from '../../assets/tux.svg'
+import mongo from '../../assets/mongo.svg'
+import mysql from '../../assets/mysql.svg'
+import mariadb from '../../assets/mariadb.svg'
+/* import notion from '../../assets/notion.svg' */
+import vscode from '../../assets/vscode.svg'
+import python from '../../assets/python.svg'
+import boostrap from '../../assets/bootstrap.svg'
+import node from '../../assets/node.svg'
+import git from '../../assets/git.svg'
+import github from '../../assets/github.svg'
+import html from '../../assets/html.svg'
 
 function About() {
     return (
@@ -18,15 +31,47 @@ function About() {
                 <a
                     className={styles.downloadCurriculum}
                     href="https://drive.google.com/file/d/10kPdGVOkDHPERrnAetzgZeIYRzl38wxz/view"
-                >Descarga mi CV  
-                    <FaArrowRight/>
+                >Descarga mi CV
+                    <FaArrowRight />
                 </a>
             </div>
-            <div className={styles.tech}>
-                <div><img src={cssIcon} alt="css icon" /></div>
-                <div><img src={jsIcon} alt="javascript icon" /></div>
-                <div><img src={figmaIcon} alt="figma icon" /></div>
-                <div><img src={reactIcon} alt="react icon" /></div>
+            <div className={styles.slider}>
+                <div className={styles.tech}>
+                    <div><img src={cssIcon} alt="css icon" /></div>
+                    <div><img src={arch} alt="javascript icon" /></div>
+                    <div><img src={figmaIcon} alt="figma icon" /></div>
+                    <div><img src={reactIcon} alt="react icon" /></div>
+                    <div><img src={mysql} alt="react icon" /></div>
+                    <div><img src={git} alt="react icon" /></div>
+                    <div><img src={node} alt="react icon" /></div>
+                    <div><img src={python} alt="react icon" /></div>
+                    <div><img src={cssIcon} alt="css icon" /></div>
+                    <div><img src={arch} alt="javascript icon" /></div>
+                    <div><img src={figmaIcon} alt="figma icon" /></div>
+                    <div><img src={reactIcon} alt="react icon" /></div>
+                    <div><img src={mysql} alt="react icon" /></div>
+                    <div><img src={git} alt="react icon" /></div>
+                    <div><img src={node} alt="react icon" /></div>
+                    <div><img src={python} alt="react icon" /></div>
+                </div>
+                <div className={`${styles.tech} ${styles.tech2}`}>
+                    <div><img src={mongo} alt="css icon" /></div>
+                    <div><img src={tux} alt="javascript icon" /></div>
+                    <div><img src={html} alt="figma icon" /></div>
+                    <div><img src={jsIcon} alt="react icon" /></div>
+                    <div><img src={github} alt="react icon" /></div>
+                    <div><img src={vscode} alt="react icon" /></div>
+                    <div><img src={mariadb} alt="react icon" /></div>
+                    <div><img src={boostrap} alt="react icon" /></div>
+                    <div><img src={mongo} alt="css icon" /></div>
+                    <div><img src={tux} alt="javascript icon" /></div>
+                    <div><img src={html} alt="figma icon" /></div>
+                    <div><img src={jsIcon} alt="react icon" /></div>
+                    <div><img src={github} alt="react icon" /></div>
+                    <div><img src={vscode} alt="react icon" /></div>
+                    <div><img src={mariadb} alt="react icon" /></div>
+                    <div><img src={boostrap} alt="react icon" /></div>
+                </div>
             </div>
         </section>
     )

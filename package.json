@@ -12,6 +12,7 @@
     "react-indiana-drag-scroll": "^2.1.0",
     "react-parallax-tilt": "^1.6.5",
     "react-scripts": "5.0.0",
+    "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

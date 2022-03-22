@@ -18,13 +18,13 @@
 .navNavigation ul li {
   margin-right: 4.4rem;
 }
-.navNavigation ul li a:hover {
-  color: var(--main);
-  transition: 30ms;
-}
 .navNavigation ul li a {
   color: var(--text);
   text-decoration: none;
+}
+.navNavigation ul li a:hover {
+  color: var(--main);
+  transition: 30ms;
 }
 .navNavigationBrand {
   font-weight: 700;
@@ -52,6 +52,10 @@
   margin-left: 2rem;
   color: var(--text);
   font-size: 2.4rem;
+}
+.navSocial a:hover {
+  color:var(--main);
+  transition: 30ms;
 }
 .hamburguerBtn {
   display: none;
