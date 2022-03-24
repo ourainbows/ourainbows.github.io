@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ourainbows.github.io/static/css/main.d992b268.css",
-    "main.js": "/ourainbows.github.io/static/js/main.0ce0e2b3.js",
+    "main.css": "/ourainbows.github.io/static/css/main.917684a4.css",
+    "main.js": "/ourainbows.github.io/static/js/main.2f4acdb8.js",
     "static/media/me.png": "/ourainbows.github.io/static/media/me.8cc0ff88bb8877b66d1e.png",
     "static/media/project4.webp": "/ourainbows.github.io/static/media/project4.3d370036dfd775247564.webp",
     "static/media/project8.webp": "/ourainbows.github.io/static/media/project8.c0cf49be0947c92b3931.webp",
@@ -32,11 +32,11 @@
     "static/media/cssIcon.svg": "/ourainbows.github.io/static/media/cssIcon.a467fed5b1b9924b0d1fdfd74e499c60.svg",
     "static/media/figmaIcon.svg": "/ourainbows.github.io/static/media/figmaIcon.13e93ff373ffd5087a255475aaa7829a.svg",
     "static/media/arch.svg": "/ourainbows.github.io/static/media/arch.f671a9a3bd295e5233a89c38598f659f.svg",
-    "main.d992b268.css.map": "/ourainbows.github.io/static/css/main.d992b268.css.map",
-    "main.0ce0e2b3.js.map": "/ourainbows.github.io/static/js/main.0ce0e2b3.js.map"
+    "main.917684a4.css.map": "/ourainbows.github.io/static/css/main.917684a4.css.map",
+    "main.2f4acdb8.js.map": "/ourainbows.github.io/static/js/main.2f4acdb8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d992b268.css",
-    "static/js/main.0ce0e2b3.js"
+    "static/css/main.917684a4.css",
+    "static/js/main.2f4acdb8.js"
   ]
 }
