@@ -22,7 +22,7 @@ function Navbar() {
                     >
                         {active ? <MdOutlineClose /> : <HiOutlineMenuAlt1 />}
                     </button>
-                    <div className={styles.navNavigationBrand}>Juan Casas<span> .</span></div>
+                    <div className={styles.navNavigationBrand}>Juan Casas<span>.</span></div>
                     <ul>
                         <li><a onClick={openModal} href='#home'>Inicio</a></li>
                         <li><a onClick={openModal} href='#services'>Servicios</a></li>

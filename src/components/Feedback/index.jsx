@@ -31,9 +31,13 @@ function Feedback() {
                 <h2 className={styles.title}>Feedback</h2>
                 <p className={styles.text}>Opiniones de clientes y compañeros de trabajo.</p>
             </div>
-            <div className={styles.cardsContainer}>
+            <div className={styles.cardsContainer} data-aos="fade-up" data-aos-duration="1800">
 
                 <Tilt
+                    tiltAngleYInitial={5}
+                    tiltMaxAngleX={8}
+                    tiltMaxAngleY={8}
+                    tiltReverse={true}
                     className={styles.card}
                     gyroscope={true} >
                     <img src={vale} alt="persona" />
@@ -43,6 +47,10 @@ function Feedback() {
                 </Tilt>
 
                 <Tilt
+                    tiltAngleYInitial={-5}
+                    tiltMaxAngleX={8}
+                    tiltMaxAngleY={8}
+                    tiltReverse={true}
                     className={styles.card}
                     gyroscope={true} >
                     <img src={vale2} alt="persona" />

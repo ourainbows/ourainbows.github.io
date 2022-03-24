@@ -10,6 +10,7 @@
   width: 10px;
 }
 ::-webkit-scrollbar-track {
+  margin: 5px;
   background: var(--background);
 }
 ::-webkit-scrollbar-thumb {

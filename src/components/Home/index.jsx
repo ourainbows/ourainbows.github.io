@@ -25,7 +25,6 @@ function Home() {
                                 "Olá mundo, eu sou",
                                 "Hallo Welt, ich bin",
                                 "Hei verden, jeg er",
-                                "世界你好，我是",
                                 "Ciao mondo, io sono"
                             ],
                             autoStart: true,

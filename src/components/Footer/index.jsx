@@ -8,7 +8,7 @@ function Footer() {
             <footer className={styles.footer}>
                 <div className={styles.footerContent}>
                     <div>
-                        <div className={styles.brand}>Juan Casas<span> .</span></div>
+                        <div className={styles.brand}>Juan Casas<span>.</span></div>
                         <p className={styles.aboutMe}>Soy Juan Casas, Frontend Developer.<br/> Acompañame en este viaje y creemos grandes experiencias juntos.</p>
                         <p className={styles.copyright}>©2021. Todos los derechos reservados.</p>
                     </div>
