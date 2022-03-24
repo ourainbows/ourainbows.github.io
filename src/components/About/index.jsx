@@ -33,9 +33,13 @@ function About() {
             <div className={styles.info} data-aos="fade-right" data-aos-duration="1800">
                 <h2 className={styles.title}>Acerca de mi</h2>
                 <p className={styles.text}>
-                    Mi nombre es Juan Felipe Casas, soy un desarrollador web enfocado al area del frontend, me encanta trabajar con  React.Js y CSS.<br />
-                    Paralamente tengo conocimientos en UI / UX y en el backend. <br />
-                    Me gusta mantenerme en constante aprendienmiento.
+                    Mi nombre es Juan Felipe Casas, soy un desarrollador web enfocado al área del frontend.
+                    Tengo experiencia trabajando en proyectos reales con lenguajes de programación como <span>HTML, CSS, Javascript, React Js</span>, con el stack <span>MERN</span> y creando mockups con <span>Figma.</span><br/>
+                    Además tengo conocimientos de lado del backend en Python, y tengo conocimiento básico en bases de datos relacionales con mysql/mariadb y las bases de datos no relacionales con mongodb.<br/>
+                    Para mi es muy importante la experiencia e interacción que va a tener el usuario con la aplicación y es por esto que también he aprendido algunos conceptos sobre <span>UI/UX</span> que me ayudan a tener un panorama y entendimiento más grande del desarrollo.<br/>
+                    Este campo de la tecnología es un mundo por eso me mantengo en <span>constante aprendizaje</span>, actualmente estoy estudiando en un bootcamp fullstack y de manera autónoma hago cursos de temas que complementen mis habilidades.<br/>
+                    Mi meta es crear y contribuir en proyectos que tengan un cambio y mejoren la vida de las personas.
+                    Me gustan los videojuegos, leer, el ajedrez y ...<i>"btw I use Arch"</i>
                 </p>
                 <a
                     className={styles.downloadCurriculum}

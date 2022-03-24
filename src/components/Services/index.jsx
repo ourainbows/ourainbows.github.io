@@ -12,7 +12,7 @@ function Services() {
     const services = [
         {
             title: "Desarrollo de Interfaces",
-            text: "Desarrollo de interfaces (UI) con herramientas enfocadas a esta actividad.",
+            text: "Interfaces de usuario originales, diferentes y con un toque único.",
             icon: <BsStars/>
         },
         {
@@ -21,13 +21,13 @@ function Services() {
             icon: <BsLightningChargeFill/>
         },
         {
-            title: "Diseños Unicos",
-            text: "Amo trabajar con CSS y dar un toque especial en el proyecto que este trabajando.",
+            title: "Aprendizajes Interminable",
+            text: "Constante formación en lenguajes de programación y tecnologías para aportar nuevas y mejores soluciones.",
             icon: <BsHeartFill/>
         },
         {
-            title: "Codigo Limpio",
-            text: "Manteniendo buenas practicas y codigo limpio para la escalabilidad y mantenelibidad",
+            title: "Rendimiento Optimizado",
+            text: "Buenas prácticas y código limpio para la escalabilidad y mantenibilidad del proyecto.",
             icon: <FaFeatherAlt/>
         },
     ]
@@ -39,7 +39,7 @@ function Services() {
         <section id="services" className={styles.container}>
             <div className={styles.containerInfo} data-aos="fade-up" data-aos-duration="1800" >
                 <h2>Mis Servicios</h2>
-                <p>Lo que se y amo hacer</p>
+                <p>Algunas de mis habilidades destacadas</p>
             </div>
             <div className={styles.servicesContainer} data-aos="fade-up" data-aos-duration="2000">
                 {services.map((item, i ) => (

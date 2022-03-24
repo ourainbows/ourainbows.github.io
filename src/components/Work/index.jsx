@@ -11,7 +11,7 @@ function Work() {
   return (
     <section className={styles.container}>
       <h3 className={styles.title} data-aos="fade-up" data-aos-duration="1800">¿Quieres trabajar conmigo?</h3>
-      <p className={styles.text} data-aos="fade-up" data-aos-duration="1800">Sientente libre de mandarme un mensaje para contactarme.</p>
+      <p className={styles.text} data-aos="fade-up" data-aos-duration="1800">Te invito a enviar un mensaje para ponernos en contacto.</p>
       <a
         href="mailto:casasjuanfelipe@gmail.com"
         className={styles.btn}

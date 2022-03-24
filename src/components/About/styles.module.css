@@ -8,7 +8,7 @@
   padding: 0 5rem;
 }
 .info {
-  width: 60%;
+  width: 63%;
 }
 .title {
   font-size: 3.4rem;
@@ -24,8 +24,13 @@
   margin-bottom: 1.6rem;
 }
 .text {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   margin-bottom: 2rem;
+  line-height: 150%;
+}
+.text span, .text i{
+  font-weight: 600;
+  color: var(--main);
 }
 .downloadCurriculum {
   text-decoration: none;
@@ -141,11 +146,12 @@
     margin-bottom: 4rem;
     width: 80%;
   }
+  .text{
+    text-align: justify;
+    word-spacing: -1px;
+  }
 }
 @media (max-width: 500px) {
-  .text {
-    text-align: justify;
-  }
   .container {
     padding: 0 2rem;
   }
