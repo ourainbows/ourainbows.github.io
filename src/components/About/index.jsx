@@ -43,7 +43,7 @@ function About() {
                 </p>
                 <a
                     className={styles.downloadCurriculum}
-                    href="https://drive.google.com/file/d/10kPdGVOkDHPERrnAetzgZeIYRzl38wxz/view"
+                    href="https://drive.google.com/file/d/15qMYDeleo_mP5zbxU2NDki37YOVjWI5t/view?usp=sharing"
                 >Descarga mi CV
                     <FaArrowRight />
                 </a>

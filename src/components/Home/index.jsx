@@ -39,7 +39,7 @@ function Home() {
                 </div>
                 <div className={styles.btnsContainer}>
                     <a href="mailto:casasjuanfelipe@gmail.com" className={styles.btnContact}>Contactame</a>
-                    <a href="https://drive.google.com/file/d/10kPdGVOkDHPERrnAetzgZeIYRzl38wxz/view" className={styles.btnCv}>CV</a>
+                    <a href="https://drive.google.com/file/d/15qMYDeleo_mP5zbxU2NDki37YOVjWI5t/view?usp=sharing" className={styles.btnCv}>CV</a>
                 </div>
             </div>
             <div className={styles.characterContainer} data-aos="fade-up">
