@@ -57,6 +57,7 @@
 }
 .container a {
   cursor: grab;
+  color: var(--text);
 }
 .container a:visited {
   color: var(--text);
