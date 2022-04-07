@@ -21,7 +21,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "hola": "touch ./build/CNAME && printf 'ourainbows.codes' > ./build/CNAME",
     "predeploy": "npm run build && touch ./build/CNAME && printf 'ourainbows.codes' > ./build/CNAME",
     "deploy": "gh-pages -d build"
   },
