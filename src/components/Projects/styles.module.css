@@ -55,10 +55,10 @@
 .container {
   display: flex;
 }
-.container a{
+.container a {
   cursor: grab;
 }
-.container a:visited{
+.container a:visited {
   color: var(--text);
 }
 .containerProjects {
@@ -70,4 +70,15 @@
 }
 .containerProjects:active {
   cursor: grabbing;
+}
+@media (hover: none) {
+  .project img {
+    filter: initial;
+    visibility: visible;
+    opacity: 1;
+  }
+  .project > .link {
+  visibility: visible;
+  opacity: 1;
+}
 }

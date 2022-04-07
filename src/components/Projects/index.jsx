@@ -10,6 +10,8 @@ import project7 from "../../assets/projects/project7.webp"
 import project8 from "../../assets/projects/project8.webp"
 import project9 from "../../assets/projects/project9.webp"
 import project10 from "../../assets/projects/project10.webp"
+import project11 from "../../assets/projects/project11.webp"
+import project12 from "../../assets/projects/project12.webp"
 import { AiOutlineLink } from "react-icons/ai"
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -26,10 +28,22 @@ function Projects() {
                <div className={styles.containerProjects} data-aos="fade-up">
                     {/* mirar el end scroll mas la posicion en x */}
                     <ScrollContainer className={styles.container} vertical={false}>
+                         <a href="https://coderyapp.netlify.app/" target="_blank" rel="noreferrer">
+                              <div className={styles.project}>
+                                   <img src={project12} alt="Proyecto" />
+                                   <p className={styles.link}><AiOutlineLink />Codery | Red Social</p>
+                              </div>
+                         </a>
                          <a href="https://ourainbows.codes/RickAndMorty/" target="_blank" rel="noreferrer">
                               <div className={styles.project}>
                                    <img src={project10} alt="Proyecto" />
                                    <p className={styles.link}><AiOutlineLink />Rick and Morty API</p>
+                              </div>
+                         </a>
+                         <a href="https://ourainbows.codes/google-clon/" target="_blank" rel="noreferrer">
+                              <div className={styles.project}>
+                                   <img src={project11} alt="Proyecto" />
+                                   <p className={styles.link}><AiOutlineLink />Google Clon</p>
                               </div>
                          </a>
                          <a href="https://ourainbows.codes/mikasa-ackerman-tribute/" target="_blank" rel="noreferrer">
