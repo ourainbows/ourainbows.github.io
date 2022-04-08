@@ -20,7 +20,7 @@ function Home() {
                         options={{
                             strings: [
                                 "Hola mundo, yo soy",
-                                "Helo world, I'm",
+                                "Hello world, I'm",
                                 "Bonjour le monde, je suis",
                                 "Olá mundo, eu sou",
                                 "Hallo Welt, ich bin",
@@ -38,7 +38,7 @@ function Home() {
                     <p>Desarrollador Frontend 🖥️</p>
                 </div>
                 <div className={styles.btnsContainer}>
-                    <a href="mailto:casasjuanfelipe@gmail.com" className={styles.btnContact}>Contactame</a>
+                    <a href="mailto:casasjuanfelipe@gmail.com" className={styles.btnContact}>Contáctame</a>
                     <a href="https://drive.google.com/file/d/15qMYDeleo_mP5zbxU2NDki37YOVjWI5t/view?usp=sharing" className={styles.btnCv}>CV</a>
                 </div>
             </div>

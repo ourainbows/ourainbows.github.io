@@ -18,7 +18,7 @@ function Work() {
         data-aos="fade-up"
         data-aos-duration="5000"
       >
-        Contactame
+        Contáctame
       </a>
     </section>
   )
