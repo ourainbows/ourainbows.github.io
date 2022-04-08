@@ -16,12 +16,12 @@ function Services() {
             icon: <BsStars/>
         },
         {
-            title: "Aplicaciones Dinamicas",
+            title: "Aplicaciones Dinámicas",
             text: "Aplicaciones web enfocadas en la interacción y el dinamismo.",
             icon: <BsLightningChargeFill/>
         },
         {
-            title: "Aprendizajes Interminable",
+            title: "Aprendizaje Interminable",
             text: "Constante formación en lenguajes de programación y tecnologías para aportar nuevas y mejores soluciones.",
             icon: <BsHeartFill/>
         },
