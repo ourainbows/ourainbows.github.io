@@ -124,7 +124,7 @@
   }
   100% {
     transform: translateY(
-      calc(11.6rem * 8)
+      calc(11.6rem * 10)
     ); /* RELEVANT -> Quantity of REAL blocks * base size */
   }
 }
@@ -134,7 +134,7 @@
   }
   100% {
     transform: translateY(
-      calc(-11.6rem * 8)
+      calc(-11.6rem * 9)
     ); /* RELEVANT -> Quantity of REAL blocks * base size */
   }
 }
