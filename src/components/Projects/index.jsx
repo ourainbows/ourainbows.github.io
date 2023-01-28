@@ -34,19 +34,19 @@ function Projects() {
                                    <p className={styles.link}><AiOutlineLink />Codery | Red Social</p>
                               </div>
                          </a>
-                         <a href="https://ourainbows.codes/RickAndMorty/" target="_blank" rel="noreferrer">
+                         <a href="https://ourainbows.github.io/RickAndMorty/" target="_blank" rel="noreferrer">
                               <div className={styles.project}>
                                    <img src={project10} alt="Proyecto" />
                                    <p className={styles.link}><AiOutlineLink />Rick and Morty API</p>
                               </div>
                          </a>
-                         <a href="https://ourainbows.codes/google-clon/" target="_blank" rel="noreferrer">
+                         <a href="https://ourainbows.github.io/google-clon/" target="_blank" rel="noreferrer">
                               <div className={styles.project}>
                                    <img src={project11} alt="Proyecto" />
                                    <p className={styles.link}><AiOutlineLink />Google Clon</p>
                               </div>
                          </a>
-                         <a href="https://ourainbows.codes/mikasa-ackerman-tribute/" target="_blank" rel="noreferrer">
+                         <a href="https://ourainbows.github.io/mikasa-ackerman-tribute/" target="_blank" rel="noreferrer">
                          <div className={styles.project}>
                               <img src={project2} alt="Proyecto" />
                               <p className={styles.link}><AiOutlineLink />Servicios Ackerman</p>
@@ -58,31 +58,31 @@ function Projects() {
                                    <p className={styles.link}><AiOutlineLink />Flores del Tambo</p>
                               </div>
                          </a>
-                         <a href="https://ourainbows.codes/tetris-game/" target="_blank" rel="noreferrer">
+                         <a href="https://ourainbows.github.io/tetris-game/" target="_blank" rel="noreferrer">
                               <div className={styles.project}>
                                    <img src={project3} alt="Proyecto" />
                                    <p className={styles.link}><AiOutlineLink />Tetris</p>
                               </div>
                          </a>
-                         <a href="https://ourainbows.codes/amaranta-store/" target="_blank" rel="noreferrer">
+                         <a href="https://ourainbows.github.io/amaranta-store/" target="_blank" rel="noreferrer">
                               <div className={styles.project}>
                                    <img src={project5} alt="Proyecto" />
                                    <p className={styles.link}><AiOutlineLink />Amaranta</p>
                               </div>
                          </a>
-                         <a href="https://ourainbows.codes/todo-app-react/" target="_blank" rel="noreferrer">
+                         <a href="https://ourainbows.github.io/todo-app-react/" target="_blank" rel="noreferrer">
                               <div className={styles.project}>
                                    <img src={project6} alt="Proyecto" />
                                    <p className={styles.link}><AiOutlineLink />Todo App</p>
                               </div>
                          </a>
-                         <a href="https://ourainbows.codes/basic-calculator/" target="_blank" rel="noreferrer">
+                         <a href="https://ourainbows.github.io/basic-calculator/" target="_blank" rel="noreferrer">
                               <div className={styles.project}>
                                    <img src={project7} alt="Proyecto" />
                                    <p className={styles.link}><AiOutlineLink />Calculadora Basica</p>
                               </div>
                          </a>
-                         <a href="https://ourainbows.codes/pokedex/" target="_blank" rel="noreferrer">
+                         <a href="https://ourainbows.github.io/pokedex/" target="_blank" rel="noreferrer">
                               <div className={styles.project}>
                                    <img src={project8} alt="Proyecto" />
                                    <p className={styles.link}><AiOutlineLink />Pokedex</p>
@@ -94,7 +94,7 @@ function Projects() {
                                    <p className={styles.link}><AiOutlineLink />Ahorcado</p>
                               </div>
                          </a>
-                         <a href="https://ourainbows.codes/portfolio/" target="_blank" rel="noreferrer">
+                         <a href="https://ourainbows.github.io/portfolio/" target="_blank" rel="noreferrer">
                               <div className={styles.project}>
                                    <img src={project1} alt="Proyecto" />
                                    <p className={styles.link}><AiOutlineLink />Portafolio Antiguo</p>
