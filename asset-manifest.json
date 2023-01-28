@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ourainbows.github.io/static/css/main.0c3c6553.css",
-    "main.js": "/ourainbows.github.io/static/js/main.875b2ccb.js",
+    "main.js": "/ourainbows.github.io/static/js/main.5bbb03c6.js",
     "static/media/me.png": "/ourainbows.github.io/static/media/me.8cc0ff88bb8877b66d1e.png",
     "static/media/project12.webp": "/ourainbows.github.io/static/media/project12.0ebcba9788aaf359b71e.webp",
     "static/media/project4.webp": "/ourainbows.github.io/static/media/project4.3d370036dfd775247564.webp",
@@ -38,10 +38,10 @@
     "static/media/arch.svg": "/ourainbows.github.io/static/media/arch.f671a9a3bd295e5233a89c38598f659f.svg",
     "static/media/angular.svg": "/ourainbows.github.io/static/media/angular.9ff58b91137d06b7c375cb57517f0615.svg",
     "main.0c3c6553.css.map": "/ourainbows.github.io/static/css/main.0c3c6553.css.map",
-    "main.875b2ccb.js.map": "/ourainbows.github.io/static/js/main.875b2ccb.js.map"
+    "main.5bbb03c6.js.map": "/ourainbows.github.io/static/js/main.5bbb03c6.js.map"
   },
   "entrypoints": [
     "static/css/main.0c3c6553.css",
-    "static/js/main.875b2ccb.js"
+    "static/js/main.5bbb03c6.js"
   ]
 }
