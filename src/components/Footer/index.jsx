@@ -10,7 +10,7 @@ function Footer() {
                     <div>
                         <div className={styles.brand}>Juan Casas<span>.</span></div>
                         <p className={styles.aboutMe}>Soy Juan Casas, Frontend Developer.<br/> Acompañame en este viaje y creemos grandes experiencias juntos.</p>
-                        <p className={styles.copyright}>©2021. Todos los derechos reservados.</p>
+                        <p className={styles.copyright}>©2023. Todos los derechos reservados.</p>
                     </div>
                     <div className={styles.navigationContainer}>
                         <ul className={styles.listItems}>
